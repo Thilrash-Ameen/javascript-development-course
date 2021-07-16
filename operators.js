@@ -30,4 +30,41 @@ z = x ** y;
 
 console.log(z);
 
-// As
+// Assignment operators
+
+let a = 100;
+let b = 200;
+let c;
+let d;
+
+c = a + b;
+console.log(c);
+
+d = c;
+console.log("D value is : " + d);
+
+// +=
+d += c;
+console.log("d += is : " + d);
+
+// -=
+d -= 50;
+console.log("d -= is : " + d);
+
+// /=
+d /= 50;
+console.log("d /= is : " + d);
+
+// *=
+d *= 2;
+console.log("d *= is : " + d);
+
+// %=
+d = 500;
+d %= 40;
+console.log("d %= is : " + d);
+
+// **=
+d = 5;
+d **= 2;
+console.log("d **= is : " + d);
